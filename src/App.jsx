@@ -138,8 +138,21 @@ function App() {
                 </div>
             ) : yesPressed ? (
                 <div className="success-message">
-                    <h1>Yeeees ! ❤️ Je t'aime !</h1>
-                    <div className="kiss-emoji">😘</div>
+                    <div className="success-heart-container">
+                        <Heart size={120} fill="#FF4D6D" color="#FF4D6D" className="success-heart-main" />
+                        <div className="sparkles-success">✨</div>
+                    </div>
+                    <h1 className="success-title">Yesss!</h1>
+                    <p className="success-subtitle">I knew you would say yes 💕</p>
+                    <p className="success-love">I love you! 💖</p>
+
+                    <div className="bottom-hearts">
+                        <Heart size={30} fill="#FF4D6D" color="#FF4D6D" className="mini-heart h1" />
+                        <Heart size={40} fill="#FF8FA3" color="#FF8FA3" className="mini-heart h2" />
+                        <Heart size={35} fill="#FFC2D1" color="#FFC2D1" className="mini-heart h3" />
+                        <Heart size={45} fill="#FF4D6D" color="#FF4D6D" className="mini-heart h4" />
+                        <Heart size={30} fill="#FF8FA3" color="#FF8FA3" className="mini-heart h5" />
+                    </div>
                 </div>
             ) : (
                 <div className="content-wrapper">
