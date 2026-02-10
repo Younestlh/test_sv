@@ -143,8 +143,9 @@ function App() {
                         <div className="sparkles-success">✨</div>
                     </div>
                     <h1 className="success-title">Yesss!</h1>
-                    <p className="success-subtitle">I knew you would say yes 💕</p>
-                    <p className="success-love">I love you! 💖</p>
+                    <p className="success-subtitle">Tu peux aller dire à Kenza que</p>
+                    <p className="success-subtitle">tu passeras la journée du samedi avec moi hahaha</p>
+                    <p className="success-love">Je t'aime ! 💖</p>
 
                     <div className="bottom-hearts">
                         <Heart size={30} fill="#FF4D6D" color="#FF4D6D" className="mini-heart h1" />

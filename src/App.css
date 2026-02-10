@@ -189,6 +189,8 @@ h1 {
     position: fixed;
     top: 0;
     left: 0;
+    text-align: center;
+    /* Ensure text is centered */
 }
 
 .success-heart-container {
@@ -410,6 +412,35 @@ h1 {
 
     .loading-text {
         font-size: 1.2rem !important;
+    }
+
+    /* Success Screen Mobile Overrides */
+    .success-heart-container {
+        transform: scale(0.7);
+        margin-bottom: 0.5rem;
+    }
+
+    .success-title {
+        font-size: 4rem !important;
+    }
+
+    .success-subtitle {
+        font-size: 1.5rem !important;
+        margin-top: 1rem !important;
+        line-height: 1.3;
+    }
+
+    .success-love {
+        font-size: 1.5rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .bottom-hearts {
+        margin-top: 2rem !important;
+        transform: scale(0.6);
+        gap: 0.5rem;
+        width: 100%;
+        justify-content: center;
     }
 }
 
