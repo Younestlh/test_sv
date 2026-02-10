@@ -175,6 +175,7 @@ function App() {
                             {phrases[noBtnIndex]}
                         </button>
                     </div>
+                    <p className="advice-text">Conseil : le bouton non est un peu timide... 🤭</p>
                 </div>
             )}
         </div>
