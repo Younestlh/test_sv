@@ -1,0 +1,29 @@
+.footer {
+    background-color: var(--color-text);
+    color: white;
+    padding: 4rem 0 2rem;
+    text-align: center;
+}
+
+.footer-message {
+    margin-bottom: 3rem;
+}
+
+.footer-message h2 {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+}
+
+.footer-message p {
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
